@@ -99,9 +99,3 @@ Stock-Portfolio-Analysis-Python/
 ## Author
 
 **Mohd Nizam Nasir Shaikh**
-
-MSc Financial Technology — National College of Ireland, Dublin
-
-LinkedIn: https://www.linkedin.com/in/nizam-shaikh-90b737199
-
-GitHub: https://github.com/nizamshaikh12
