@@ -46,7 +46,7 @@ Stocks covered across the notebooks include **Apple (AAPL)**, **Microsoft (MSFT)
 
 ## Key Tasks Completed
 
-### Class Assessment — Portfolio Construction & Stock Data Manipulation
+### Assessment 1 — Portfolio Construction & Stock Data Manipulation
 - Built a Python list of client portfolio dictionaries with fields: `Client_id`, `Asset_type`, `Value_usd`, `is_high_risk`
 - Portfolios: **AAPL** ($254.43, high risk), **MSFT** ($509.23, high risk), **ETH** ($3,331.31, low risk)
 - Applied conditional logic:
@@ -57,8 +57,8 @@ Stocks covered across the notebooks include **Apple (AAPL)**, **Microsoft (MSFT)
 - Engineered `Daily_Change` column: `Close − Open` for each trading day
 - Performed per-ticker filtering and grouped summary statistics
 
-### Assignment 1 — Python Basics for Stock Trading Logic
-- Created a stock price dictionary for 7 tickers: AAPL, GOOG, MSFT, NVDA, TSLA, INTC, META
+### Assessment 2 — Python Basics for Stock Trading Logic
+- Created a stock price dictionary
 - Applied **if/elif/else** logic to classify stock as overvalued, stable or a bargain based on price threshold
 - Used a **for loop** to iterate through all tickers and print their current prices
 - Implemented a **while loop** to simulate NVDA price incrementing by $5 until reaching a target of $250
@@ -72,19 +72,6 @@ Stocks covered across the notebooks include **Apple (AAPL)**, **Microsoft (MSFT)
 - Created a **bar chart** of annual returns per stock
 - Created a **scatter plot** of volatility vs return for risk-return analysis
 - Created a **pie chart** of portfolio allocation weights with MSFT slice exploded for emphasis
-
----
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|------|---------|
-| **Python 3** | Core programming language |
-| **Pandas** | Data loading, cleaning, manipulation |
-| **NumPy** | Numerical operations and array-based portfolio calculations |
-| **Matplotlib** | Data visualisation — bar, scatter and pie charts |
-| **Jupyter Notebook** | Interactive development environment |
-| **Microsoft Excel** | Initial data inspection & formatting |
 
 ---
 
@@ -102,9 +89,3 @@ Stocks covered across the notebooks include **Apple (AAPL)**, **Microsoft (MSFT)
 ## Author
 
 **Mohd Nizam Nasir Shaikh**
-
-MSc Financial Technology — National College of Ireland, Dublin
-
-LinkedIn: https://www.linkedin.com/in/nizam-shaikh-90b737199
-
-GitHub: https://github.com/nizamshaikh12
