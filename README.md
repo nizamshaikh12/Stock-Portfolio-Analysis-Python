@@ -1,12 +1,4 @@
-# 📈 Stock Portfolio Analysis & Data Manipulation — Python
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+# Stock Portfolio Analysis & Data Manipulation — Python
 
 **MSc Financial Technology — Programming for Financial Data Science**
 *National College of Ireland, Dublin | Student ID: 24198170*
@@ -15,15 +7,15 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
-This project demonstrates foundational Python programming skills applied to **real-world financial data**. It covers portfolio construction, risk-based valuation adjustments, multi-stock time series data manipulation, and derived financial metrics using industry-standard libraries.
+This project demonstrates foundational Python programming skills applied to **real-world financial data**. It covers portfolio construction, risk-based valuation adjustments, multi-stock time series data manipulation and derived financial metrics using industry-standard libraries.
 
-The notebook works with actual historical stock price data for **Apple (AAPL)**, **Microsoft (MSFT)**, **Netflix (NFLX)**, and **Google (GOOG)** over a 3-month period (February–May 2023), covering 248 trading records across 8 price/volume fields.
+The notebook works with actual historical stock price data for **Apple (AAPL)**, **Microsoft (MSFT)**, **Netflix (NFLX)** and **Google (GOOG)** over a 3-month period (February–May 2023), covering 248 trading records across 8 price/volume fields.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Construct and manipulate client portfolio dictionaries in Python
 - Apply **risk-adjusted valuation logic** (high-risk vs low-risk asset discounts)
@@ -34,19 +26,7 @@ The notebook works with actual historical stock price data for **Apple (AAPL)**,
 
 ---
 
-## 📂 Repository Structure
-
-```
-Stock-Portfolio-Analysis-Python/
-├── Class-Assessment.ipynb   ← Main Jupyter Notebook (all code & outputs)
-├── dataset.csv              ← Historical stock prices: AAPL, MSFT, NFLX, GOOG
-├── report.pdf               ← Written assessment report
-└── README.md
-```
-
----
-
-## 📊 Dataset
+## Dataset
 
 | Column | Description |
 |--------|-------------|
@@ -64,7 +44,7 @@ Stock-Portfolio-Analysis-Python/
 
 ---
 
-## 🧠 Key Tasks Completed
+## Key Tasks Completed
 
 ### Part 1 — Portfolio Construction & Risk Valuation
 - Built a Python list of client portfolio dictionaries with fields: `Client_id`, `Asset_type`, `Value_usd`, `is_high_risk`
@@ -78,12 +58,12 @@ Stock-Portfolio-Analysis-Python/
 - Loaded multi-stock CSV dataset using `pandas.read_csv()`
 - Standardised date column from `DD/MM/YYYY` to `YYYY-MM-DD` using `pd.to_datetime()`
 - Engineered `Daily_Change` column: `Close − Open` for each trading day
-- Verified data shape, column types, and null value checks
+- Verified data shape, column types and null value checks
 - Performed per-ticker filtering and grouped summary statistics
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -95,7 +75,7 @@ Stock-Portfolio-Analysis-Python/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository or download the files
 2. Open `Class-Assessment.ipynb` in **Jupyter Notebook** or **Google Colab**
@@ -106,13 +86,9 @@ Stock-Portfolio-Analysis-Python/
 
 ---
 
-## 📝 Author
+## Author
 
-**Mohd Nizam Nasir Shaikh** | Student ID: 24198170
-
-🎓 MSc Financial Technology — National College of Ireland, Dublin
-
-💼 Former Senior Financial Services Operations Representative — SS&C Financial Technologies
+**Mohd Nizam Nasir Shaikh**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nizam-shaikh-90b737199)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=flat&logo=github&logoColor=white)](https://github.com/nizamshaikh12)
