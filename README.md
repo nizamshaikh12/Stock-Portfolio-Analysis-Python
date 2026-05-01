@@ -3,8 +3,6 @@
 **MSc Financial Technology — Programming for Financial Data Science**
 *National College of Ireland, Dublin | Student ID: 24198170*
 
-</div>
-
 ---
 
 ## Overview
@@ -23,6 +21,18 @@ The notebook works with actual historical stock price data for **Apple (AAPL)**,
 - Standardise date formats and engineer new financial features
 - Calculate **daily price change** (Close − Open) across all tickers
 - Perform grouped multi-stock analysis and summary statistics
+
+---
+
+## Repository Structure
+
+```
+Stock-Portfolio-Analysis-Python/
+├── Class-Assessment.ipynb   ← Main Jupyter Notebook (all code & outputs)
+├── dataset.csv              ← Historical stock prices: AAPL, MSFT, NFLX, GOOG
+├── report.pdf               ← Written assessment report
+└── README.md
+```
 
 ---
 
@@ -89,3 +99,9 @@ The notebook works with actual historical stock price data for **Apple (AAPL)**,
 ## Author
 
 **Mohd Nizam Nasir Shaikh**
+
+MSc Financial Technology — National College of Ireland, Dublin
+
+LinkedIn: https://www.linkedin.com/in/nizam-shaikh-90b737199
+
+GitHub: https://github.com/nizamshaikh12
